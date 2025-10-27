@@ -1,4 +1,3 @@
-````markdown
 # Exercices ROS2
 
 Ce dépôt contient une série d’exercices pour apprendre et pratiquer le développement avec **ROS 2** en C++.
@@ -57,22 +56,3 @@ cpp_pubsub/
 └── package.xml
 ```
 
----
-
-## 🧠 Conseils
-
-* Toujours exécuter `source install/setup.bash` après chaque compilation.
-* Utiliser `ros2 run` plutôt que d’appeler les binaires directement.
-* Pour déboguer : `ros2 run --ros-args --log-level debug cpp_pubsub exoX_fonction`
-
----
-
-✍️ **Auteur :** *Ton Nom*
-📅 **Dernière mise à jour :** octobre 2025
-
-```
-
----
-
-Souhaites-tu que je te le reformate en anglais ou que j’ajoute une section “installation de ROS2 / prérequis” pour les nouveaux utilisateurs ?
-```
