@@ -1,17 +1,78 @@
-# exercices-ROS2
+````markdown
+# Exercices ROS2
 
-Pour tester tous les codes des exercices il suffit d'executer un 'colcon build' puis 'ros2 run cpp_pubsub exoX_fonction'
-\newline
-Voici la liste des executables disponibles :
-  exo1_publisher
-  exo1_listener
-  exo2_publisher
-  exo3_publisher
-  exo4_publisher
-  exo4_listener
-  exo5_listener
-  exo6_publisher
-  exo7_server
-  exo7_client
+Ce dépôt contient une série d’exercices pour apprendre et pratiquer le développement avec **ROS 2** en C++.
 
-Si un executable n'existe pas dans la version d'un exo c'est qu'il est remplacable par l'executable de l'exo précédent.
+---
+
+## Utilisation
+
+Pour compiler et exécuter les exercices :
+
+```bash
+colcon build
+source install/setup.bash
+````
+
+Ensuite, lance l’un des exécutables avec :
+
+```bash
+ros2 run cpp_pubsub <nom_de_l_exécutable>
+```
+
+---
+
+## ⚙️ Liste des exécutables disponibles
+
+| Exercice | Type      | Nom de l’exécutable |
+| -------- | --------- | ------------------- |
+| Exo 1    | Publisher | `exo1_publisher`    |
+| Exo 1    | Listener  | `exo1_listener`     |
+| Exo 2    | Publisher | `exo2_publisher`    |
+| Exo 3    | Publisher | `exo3_publisher`    |
+| Exo 4    | Publisher | `exo4_publisher`    |
+| Exo 4    | Listener  | `exo4_listener`     |
+| Exo 5    | Listener  | `exo5_listener`     |
+| Exo 6    | Publisher | `exo6_publisher`    |
+| Exo 7    | Service   | `exo7_server`       |
+| Exo 7    | Client    | `exo7_client`       |
+
+---
+
+## 💡 Remarque
+
+Si un exécutable n’existe pas pour un exercice donné, il peut être **remplacé par celui de l’exercice précédent** (par exemple, un listener identique).
+
+---
+
+## 📁 Structure du projet (exemple)
+
+```
+cpp_pubsub/
+├── src/
+│   ├── exo1_publisher.cpp
+│   ├── exo1_listener.cpp
+│   ├── ...
+├── CMakeLists.txt
+└── package.xml
+```
+
+---
+
+## 🧠 Conseils
+
+* Toujours exécuter `source install/setup.bash` après chaque compilation.
+* Utiliser `ros2 run` plutôt que d’appeler les binaires directement.
+* Pour déboguer : `ros2 run --ros-args --log-level debug cpp_pubsub exoX_fonction`
+
+---
+
+✍️ **Auteur :** *Ton Nom*
+📅 **Dernière mise à jour :** octobre 2025
+
+```
+
+---
+
+Souhaites-tu que je te le reformate en anglais ou que j’ajoute une section “installation de ROS2 / prérequis” pour les nouveaux utilisateurs ?
+```
