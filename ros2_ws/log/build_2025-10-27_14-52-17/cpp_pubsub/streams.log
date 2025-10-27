@@ -1,0 +1,29 @@
+[0.045s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.123s] [ 14%] Built target exo1_publisher
+[0.133s] [ 28%] Built target exo1_listener
+[0.140s] [ 42%] Built target exo2_publisher
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o[0m
+[0.153s] [ 64%] Built target exo3_publisher
+[0.153s] [ 71%] [32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o[0m
+[0.154s] [ 78%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[0.436s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/ComputerInfo.hpp: No such file or directory
+[0.436s]    22 | #include [01;31m[K"tutorial_interfaces/msg/ComputerInfo.hpp"[m[K
+[0.436s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.436s] compilation terminated.
+[0.438s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_listener.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.438s]    19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.438s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.438s] compilation terminated.
+[0.439s] gmake[2]: *** [CMakeFiles/exo4_publisher.dir/build.make:76: CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o] Error 1
+[0.439s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/exo4_publisher.dir/all] Error 2
+[0.439s] gmake[1]: *** Waiting for unfinished jobs....
+[0.441s] gmake[2]: *** [CMakeFiles/exo4_listener.dir/build.make:76: CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o] Error 1
+[0.441s] gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/exo4_listener.dir/all] Error 2
+[0.444s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.444s]    21 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.444s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.444s] compilation terminated.
+[0.447s] gmake[2]: *** [CMakeFiles/exo5_publisher.dir/build.make:76: CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o] Error 1
+[0.447s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/exo5_publisher.dir/all] Error 2
+[0.447s] gmake: *** [Makefile:146: all] Error 2
+[0.450s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

@@ -1,0 +1,68 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub
+[ 14%] [32mBuilding CXX object CMakeFiles/exo1_publisher.dir/src/exo1_publisher.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/exo3_publisher.dir/src/exo3_publisher.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/exo1_listener.dir/src/exo1_listener.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/exo2_publisher.dir/src/exo2_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable exo3_publisher[0m
+[ 64%] [32m[1mLinking CXX executable exo4_publisher[0m
+[ 78%] [32m[1mLinking CXX executable exo5_publisher[0m
+[ 78%] [32m[1mLinking CXX executable exo1_listener[0m
+[ 92%] [32m[1mLinking CXX executable exo2_publisher[0m
+[ 92%] [32m[1mLinking CXX executable exo4_listener[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/exo3_publisher.dir/build.make:159: exo3_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/exo3_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/exo1_listener.dir/build.make:159: exo1_listener] Error 1
+gmake[2]: *** [CMakeFiles/exo4_listener.dir/build.make:159: exo4_listener] Error 1
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/exo1_listener.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/exo4_listener.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/exo4_publisher.dir/build.make:159: exo4_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/exo4_publisher.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/exo2_publisher.dir/build.make:159: exo2_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/exo2_publisher.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/exo5_publisher.dir/build.make:159: exo5_publisher] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/exo5_publisher.dir/all] Error 2
+[100%] [32m[1mLinking CXX executable exo1_publisher[0m
+[100%] Built target exo1_publisher
+gmake: *** [Makefile:146: all] Error 2

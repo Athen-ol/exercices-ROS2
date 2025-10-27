@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a4d47f7855ada93a366a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_pubsub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_pubsub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_pubsub_uninstall-3a5d5cecae913adcb2a8.json",
+					"name" : "cpp_pubsub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo1_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo1_listener-deb49b631f4b30d6bcc6.json",
+					"name" : "exo1_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo1_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo1_publisher-872c567df47203f5f5db.json",
+					"name" : "exo1_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo2_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo2_publisher-913ceb3ebb92c9f5b944.json",
+					"name" : "exo2_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo3_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo3_publisher-634909dc026bddef6b4d.json",
+					"name" : "exo3_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo4_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo4_listener-dba074937482726e531e.json",
+					"name" : "exo4_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo4_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo4_publisher-64480efd84e7839063ca.json",
+					"name" : "exo4_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo5_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo5_listener-e935b2f1aecc88e73078.json",
+					"name" : "exo5_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo6_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo6_publisher-38106cd7a3df89e972ba.json",
+					"name" : "exo6_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo7_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo7_client-7006389fe753a363809c.json",
+					"name" : "exo7_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exo7_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exo7_server-c61826c58a6b78b80f27.json",
+					"name" : "exo7_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-030fb5aa61b15f328df1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub",
+		"source" : "/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

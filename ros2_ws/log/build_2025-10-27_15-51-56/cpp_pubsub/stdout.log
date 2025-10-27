@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target exo6_publisher[0m
+[ 12%] Built target exo2_publisher
+[ 25%] Built target exo1_publisher
+[ 37%] Built target exo3_publisher
+[ 62%] Built target exo4_publisher
+[ 62%] Built target exo1_listener
+[ 75%] Built target exo5_listener
+[ 87%] Built target exo4_listener
+[ 93%] [32mBuilding CXX object CMakeFiles/exo6_publisher.dir/src/exo6_publisher.cpp.o[0m

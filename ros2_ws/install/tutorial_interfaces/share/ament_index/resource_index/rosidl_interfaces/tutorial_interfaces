@@ -1,0 +1,6 @@
+msg/ComputerInfo.idl
+msg/ComputerInfo.msg
+srv/CheckParams.idl
+srv/CheckParams.srv
+srv/CheckParams_Request.msg
+srv/CheckParams_Response.msg

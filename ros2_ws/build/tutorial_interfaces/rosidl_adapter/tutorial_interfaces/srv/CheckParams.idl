@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/CheckParams.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct CheckParams_Request {
+      string computer_name;
+
+      int64 domain_id;
+    };
+    struct CheckParams_Response {
+      boolean computer_name_correct;
+
+      boolean domain_id_correct;
+    };
+  };
+};

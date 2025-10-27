@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.080s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.081s] [ 75%] Built target listener
+[2.164s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.164s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTCHAR[m[K’ was not declared in this scope
+[2.164s]    43 |     [01;31m[KTCHAR[m[K  infoBuf[32767];
+[2.164s]       |     [01;31m[K^~~~~[m[K
+[2.168s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDWORD[m[K’ was not declared in this scope
+[2.168s]    44 |     [01;31m[KDWORD[m[K  bufCharCount = 32767;
+[2.168s]       |     [01;31m[K^~~~~[m[K
+[2.173s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:22:[m[K [01;31m[Kerror: [m[K‘[01m[KinfoBuf[m[K’ was not declared in this scope
+[2.173s]    45 |     GetComputerName( [01;31m[KinfoBuf[m[K, &bufCharCount );
+[2.173s]       |                      [01;31m[K^~~~~~~[m[K
+[2.179s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:32:[m[K [01;31m[Kerror: [m[K‘[01m[KbufCharCount[m[K’ was not declared in this scope
+[2.179s]    45 |     GetComputerName( infoBuf, &[01;31m[KbufCharCount[m[K );
+[2.179s]       |                                [01;31m[K^~~~~~~~~~~~[m[K
+[2.185s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[KGetComputerName[m[K’ was not declared in this scope
+[2.185s]    45 |     [01;31m[KGetComputerName[m[K( infoBuf, &bufCharCount );
+[2.185s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.896s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.896s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[2.896s] gmake: *** [Makefile:146: all] Error 2
+[2.899s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

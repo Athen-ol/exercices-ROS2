@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000693] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.009409] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.072201] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.072972] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/student-7:@/tmp/.ICE-unix/1464,unix/student-7:/tmp/.ICE-unix/1464'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e86bfce0_5c57_442d_b9b3_748ec38b150c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QC10E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.275'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_example:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/turtlebot3_ws/build/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/turtlebot3_ws/build/turtlebot3_example:/home/student/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/student/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099591] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099776] (-) TimerEvent: {}
+[0.199978] (-) TimerEvent: {}
+[0.224410] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.252356] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.254786] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.260550] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.269701] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.281466] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300075] (-) TimerEvent: {}
+[0.312091] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.313710] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400167] (-) TimerEvent: {}
+[0.419988] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.474082] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500341] (-) TimerEvent: {}
+[0.544573] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.544961] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.545066] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.545774] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.547106] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.547256] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.547635] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.548445] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.572281] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.581606] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub\n'}
+[0.601239] (-) TimerEvent: {}
+[0.624065] (cpp_pubsub) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/exo1_publisher.dir/src/exo1_publisher.cpp.o\x1b[0m\n'}
+[0.624297] (cpp_pubsub) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/exo3_publisher.dir/src/exo3_publisher.cpp.o\x1b[0m\n'}
+[0.625749] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o\x1b[0m\n'}
+[0.625919] (cpp_pubsub) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/exo1_listener.dir/src/exo1_listener.cpp.o\x1b[0m\n'}
+[0.626080] (cpp_pubsub) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/exo2_publisher.dir/src/exo2_publisher.cpp.o\x1b[0m\n'}
+[0.627316] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o\x1b[0m\n'}
+[0.627566] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o\x1b[0m\n'}
+[0.668604] (cpp_pubsub) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable exo3_publisher\x1b[0m\n'}
+[0.670083] (cpp_pubsub) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable exo4_publisher\x1b[0m\n'}
+[0.671118] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable exo5_publisher\x1b[0m\n'}
+[0.671331] (cpp_pubsub) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable exo1_listener\x1b[0m\n'}
+[0.671491] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable exo2_publisher\x1b[0m\n'}
+[0.671639] (cpp_pubsub) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable exo4_listener\x1b[0m\n'}
+[0.703913] (-) TimerEvent: {}
+[0.748284] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.748483] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.749217] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.751836] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo3_publisher.dir/build.make:159: exo3_publisher] Error 1\n'}
+[0.752088] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/exo3_publisher.dir/all] Error 2\n'}
+[0.752213] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.762941] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.763186] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.765202] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.765400] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.765510] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.765595] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.765676] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.765768] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.766390] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.767504] (cpp_pubsub) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.767700] (cpp_pubsub) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.769144] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.769329] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.769762] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo1_listener.dir/build.make:159: exo1_listener] Error 1\n'}
+[0.770079] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo4_listener.dir/build.make:159: exo4_listener] Error 1\n'}
+[0.770399] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.770544] (cpp_pubsub) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.770749] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/exo1_listener.dir/all] Error 2\n'}
+[0.770911] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/exo4_listener.dir/all] Error 2\n'}
+[0.771128] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo4_publisher.dir/build.make:159: exo4_publisher] Error 1\n'}
+[0.771339] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/exo4_publisher.dir/all] Error 2\n'}
+[0.772705] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo2_publisher.dir/build.make:159: exo2_publisher] Error 1\n'}
+[0.772949] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/exo2_publisher.dir/all] Error 2\n'}
+[0.773527] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exo5_publisher.dir/build.make:159: exo5_publisher] Error 1\n'}
+[0.773682] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/exo5_publisher.dir/all] Error 2\n'}
+[0.805920] (-) TimerEvent: {}
+[0.906251] (-) TimerEvent: {}
+[1.006595] (-) TimerEvent: {}
+[1.106892] (-) TimerEvent: {}
+[1.207195] (-) TimerEvent: {}
+[1.307522] (-) TimerEvent: {}
+[1.407818] (-) TimerEvent: {}
+[1.508134] (-) TimerEvent: {}
+[1.608446] (-) TimerEvent: {}
+[1.708743] (-) TimerEvent: {}
+[1.809051] (-) TimerEvent: {}
+[1.909365] (-) TimerEvent: {}
+[2.009678] (-) TimerEvent: {}
+[2.110020] (-) TimerEvent: {}
+[2.210322] (-) TimerEvent: {}
+[2.310639] (-) TimerEvent: {}
+[2.410941] (-) TimerEvent: {}
+[2.511270] (-) TimerEvent: {}
+[2.611602] (-) TimerEvent: {}
+[2.711910] (-) TimerEvent: {}
+[2.812184] (-) TimerEvent: {}
+[2.912461] (-) TimerEvent: {}
+[3.012767] (-) TimerEvent: {}
+[3.113089] (-) TimerEvent: {}
+[3.213390] (-) TimerEvent: {}
+[3.313692] (-) TimerEvent: {}
+[3.413941] (-) TimerEvent: {}
+[3.514202] (-) TimerEvent: {}
+[3.614492] (-) TimerEvent: {}
+[3.714779] (-) TimerEvent: {}
+[3.815057] (-) TimerEvent: {}
+[3.915327] (-) TimerEvent: {}
+[4.015633] (-) TimerEvent: {}
+[4.115924] (-) TimerEvent: {}
+[4.216212] (-) TimerEvent: {}
+[4.257209] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable exo1_publisher\x1b[0m\n'}
+[4.316328] (-) TimerEvent: {}
+[4.416636] (-) TimerEvent: {}
+[4.441273] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target exo1_publisher\n'}
+[4.442831] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.446071] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[4.456480] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[4.467302] (-) EventReactorShutdown: {}

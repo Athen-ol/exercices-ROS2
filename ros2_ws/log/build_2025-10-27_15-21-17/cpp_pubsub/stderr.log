@@ -1,0 +1,7 @@
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_listener.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/computer_info.hpp: No such file or directory
+   19 | #include [01;31m[K"tutorial_interfaces/msg/computer_info.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exo4_listener.dir/build.make:76: CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/exo4_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

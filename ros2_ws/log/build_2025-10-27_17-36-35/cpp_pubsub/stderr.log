@@ -1,0 +1,74 @@
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:24:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Ktutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::_computer_name_type[m[K’ {aka ‘[01m[Klong int[m[K’} in assignment
+   24 |   request->computer_name = std::[01;31m[Kstring(argv[1])[m[K;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:1[m[K:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:40:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   40 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Response : %s and %s", [01;31m[Kresponse[m[K.get()->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response.get()->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+      |                                                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   40 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Response : %s and %s", response.get()->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response.get()->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:[m[K In function ‘[01m[Kvoid check(std::shared_ptr<tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::CheckParams_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:11:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcompare[m[K’ in ‘[01m[K((const std::__shared_ptr_access<tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& request))->std::__shared_ptr_access<tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::computer_name[m[K’, which is of non-class type ‘[01m[Ktutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::_computer_name_type[m[K’ {aka ‘[01m[Klong int[m[K’}
+   11 |   response->computer_name_correct = request->computer_name.[01;31m[Kcompare[m[K(infoBuf)==1;
+      |                                                            [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:1[m[K:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:13:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::_computer_name_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   13 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %s" " b: %ld"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   14 |                 [32m[Krequest->computer_name[m[K, request->domain_id);
+      |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K       
+      |                          [32m[K|[m[K
+      |                          [32m[Ktutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::_computer_name_type {aka long int}[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:13:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   13 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: [01;36m[K%s[m[K" " b: %ld",
+      |                                                                   [01;36m[K~^[m[K
+      |                                                                    [01;36m[K|[m[K
+      |                                                                    [01;36m[Kchar*[m[K
+      |                                                                   [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:1[m[K:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:15:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   15 |   [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "sending back response: [%s]", response->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exo7_client.dir/build.make:76: CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/exo7_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/exo7_server.dir/build.make:76: CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/exo7_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

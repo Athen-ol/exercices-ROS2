@@ -1,0 +1,83 @@
+[0.015s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.106s] [ 10%] Built target exo1_listener
+[0.112s] [ 20%] Built target exo1_publisher
+[0.114s] [ 25%] [32mBuilding CXX object CMakeFiles/exo6_publisher.dir/src/exo6_publisher.cpp.o[0m
+[0.123s] [ 30%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[0.123s] [ 40%] Built target exo3_publisher
+[0.124s] [ 45%] [32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o[0m
+[0.127s] [ 55%] Built target exo2_publisher
+[0.137s] [ 60%] [32mBuilding CXX object CMakeFiles/exo5_listener.dir/src/exo5_listener.cpp.o[0m
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target exo7_server[0m
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target exo7_client[0m
+[0.242s] [ 65%] [32mBuilding CXX object CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o[0m
+[0.244s] [ 70%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m
+[3.984s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.985s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.985s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:1[m[K:
+[3.986s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.986s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:40:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+[3.986s]    40 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Response : %s and %s", [01;31m[Kresponse[m[K.get()->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response.get()->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+[3.986s]       |                                                                       [01;31m[K^~~~~~~~[m[K
+[3.986s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.986s]    40 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Response : %s and %s", response.get()->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response.get()->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+[3.986s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.032s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.032s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.033s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.033s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:1[m[K:
+[4.033s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:[m[K In function ‘[01m[Kvoid check(std::shared_ptr<tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::CheckParams_Response_<std::allocator<void> > >)[m[K’:
+[4.033s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:13:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> >::_computer_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.033s]    13 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %s" " b: %ld"[m[K,
+[4.033s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.033s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:13:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.034s]    13 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: [01;36m[K%s[m[K" " b: %ld",
+[4.034s]       |                                                                   [01;36m[K~^[m[K
+[4.034s]       |                                                                    [01;36m[K|[m[K
+[4.034s]       |                                                                    [01;36m[Kchar*[m[K
+[4.034s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.034s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.035s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.035s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:1[m[K:
+[4.036s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:15:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[4.036s]    15 |   [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "sending back response: [%s]", response->computer_name_correct ? "Computer name correct" : "Computer name incorrect", response->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+[4.036s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[4.752s] gmake[2]: *** [CMakeFiles/exo7_client.dir/build.make:76: CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o] Error 1
+[4.752s] gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/exo7_client.dir/all] Error 2
+[4.752s] gmake[1]: *** Waiting for unfinished jobs....
+[4.903s] gmake[2]: *** [CMakeFiles/exo7_server.dir/build.make:76: CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o] Error 1
+[4.903s] gmake[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/exo7_server.dir/all] Error 2
+[6.372s] [ 75%] [32m[1mLinking CXX executable exo6_publisher[0m
+[6.474s] [ 80%] [32m[1mLinking CXX executable exo4_publisher[0m
+[6.621s] [ 80%] Built target exo6_publisher
+[6.739s] [ 80%] Built target exo4_publisher
+[10.171s] [ 85%] [32m[1mLinking CXX executable exo5_listener[0m
+[10.490s] [ 90%] [32m[1mLinking CXX executable exo4_listener[0m
+[10.580s] [ 90%] Built target exo5_listener
+[10.876s] [ 90%] Built target exo4_listener
+[10.878s] gmake: *** [Makefile:146: all] Error 2
+[10.881s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

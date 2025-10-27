@@ -1,0 +1,3 @@
+
+bool computer_name_correct
+bool domain_id_correct

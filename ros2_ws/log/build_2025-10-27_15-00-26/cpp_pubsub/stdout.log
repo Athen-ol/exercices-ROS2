@@ -1,0 +1,7 @@
+[ 14%] Built target exo1_publisher
+[ 28%] Built target exo1_listener
+[ 42%] Built target exo3_publisher
+[ 50%] [32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[ 71%] Built target exo2_publisher
+[ 85%] Built target exo4_listener

@@ -1,0 +1,70 @@
+[0.028s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.122s] [35m[1mConsolidate compiler generated dependencies of target exo6_publisher[0m
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target exo5_listener[0m
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target exo4_listener[0m
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target exo4_publisher[0m
+[0.142s] [ 22%] Built target exo2_publisher
+[0.142s] [ 22%] Built target exo1_listener
+[0.151s] [ 33%] Built target exo3_publisher
+[0.157s] [ 44%] Built target exo1_publisher
+[0.159s] [ 55%] Built target exo4_listener
+[0.160s] [ 66%] Built target exo5_listener
+[0.160s] [ 77%] Built target exo6_publisher
+[0.160s] [ 88%] Built target exo4_publisher
+[0.176s] [ 94%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m
+[2.452s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.452s]     6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+[2.452s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.452s]       |                                [32m[Krcl_interfaces[m[K
+[2.452s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.452s]     6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+[2.452s]       |                                                                            [01;31m[K^[m[K
+[2.456s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.457s]     6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+[2.457s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.457s]       |                                [32m[Krcl_interfaces[m[K
+[2.457s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.457s]     6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+[2.457s]       |                                                                            [01;31m[K^[m[K
+[2.461s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.461s]     6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+[2.461s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.461s]       |                                [32m[Krcl_interfaces[m[K
+[2.461s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.461s]     6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+[2.461s]       |                                                                            [01;31m[K^[m[K
+[2.461s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[2.461s]     6 | void add(const [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+[2.461s]       |                [01;31m[K^~~[m[K
+[2.466s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.466s]     6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+[2.466s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.466s]       |                                [32m[Krcl_interfaces[m[K
+[2.466s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+[2.466s]     6 | void [01;31m[Kadd[m[K(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+[2.466s]       |      [01;31m[K^~~[m[K
+[2.466s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[2.466s]     6 | void add([01;31m[Kconst[m[K std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+[2.466s]       |          [01;31m[K^~~~~[m[K
+[2.471s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:7:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.471s]     7 |           std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Response>      response)
+[2.471s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.471s]       |                           [32m[Krcl_interfaces[m[K
+[2.471s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:7:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.471s]     7 |           std::shared_ptr<example_interfaces::srv::AddTwoInts::Response[01;31m[K>[m[K      response)
+[2.471s]       |                                                                        [01;31m[K^[m[K
+[2.479s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.479s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[2.479s]    21 |   rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr service =
+[2.479s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.480s]       |                   [32m[Krcl_interfaces[m[K
+[2.480s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.480s]    21 |   rclcpp::Service<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service =
+[2.480s]       |                                                      [01;31m[K^[m[K
+[2.480s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+[2.480s]    21 |   rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kservice[m[K =
+[2.480s]       |                                                                   [01;31m[K^~~~~~~[m[K
+[2.884s] gmake[2]: *** [CMakeFiles/exo7_server.dir/build.make:76: CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o] Error 1
+[2.884s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/exo7_server.dir/all] Error 2
+[2.886s] gmake: *** [Makefile:146: all] Error 2
+[2.888s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

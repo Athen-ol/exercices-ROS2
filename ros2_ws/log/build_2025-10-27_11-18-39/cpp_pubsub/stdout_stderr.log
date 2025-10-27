@@ -1,0 +1,16 @@
+[ 50%] Built target listener
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:28:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kchar [100][m[K’ and ‘[01m[Kconst char [2][m[K’ to binary ‘[01m[Koperator+[m[K’
+   47 |     message.data = [32m[KinfoBuf[m[K [01;31m[K+[m[K [34m[K" "[m[K + RMW__DOMAIN_ID_H_;
+      |                    [32m[K~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                    [32m[K|[m[K         [34m[K|[m[K
+      |                    [32m[K|[m[K         [34m[Kconst char [2][m[K
+      |                    [32m[Kchar [100][m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   47 |     message.data = infoBuf + " " + RMW__DOMAIN_ID_H_[01;31m[K;[m[K
+      |                                                     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,20 @@
+[ 10%] Built target exo1_listener
+[ 20%] Built target exo1_publisher
+[ 25%] [32mBuilding CXX object CMakeFiles/exo6_publisher.dir/src/exo6_publisher.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[ 40%] Built target exo3_publisher
+[ 45%] [32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o[0m
+[ 55%] Built target exo2_publisher
+[ 60%] [32mBuilding CXX object CMakeFiles/exo5_listener.dir/src/exo5_listener.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target exo7_server[0m
+[35m[1mConsolidate compiler generated dependencies of target exo7_client[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable exo6_publisher[0m
+[ 80%] [32m[1mLinking CXX executable exo4_publisher[0m
+[ 80%] Built target exo6_publisher
+[ 80%] Built target exo4_publisher
+[ 85%] [32m[1mLinking CXX executable exo5_listener[0m
+[ 90%] [32m[1mLinking CXX executable exo4_listener[0m
+[ 90%] Built target exo5_listener
+[ 90%] Built target exo4_listener

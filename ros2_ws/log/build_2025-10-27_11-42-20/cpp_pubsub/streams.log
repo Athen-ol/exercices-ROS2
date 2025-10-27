@@ -1,0 +1,12 @@
+[0.060s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.119s] [ 50%] Built target listener
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.189s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.188s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KExo1_publisher::Exo1_publisher()[m[K’:
+[2.188s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:29:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KExo1_publisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.188s]    32 |   : Node("exo1_publisher"), [01;31m[Kcount_[m[K(0)
+[2.188s]       |                             [01;31m[K^~~~~~[m[K
+[2.896s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.897s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[2.897s] gmake: *** [Makefile:146: all] Error 2
+[2.900s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

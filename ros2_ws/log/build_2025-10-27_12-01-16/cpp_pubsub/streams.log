@@ -1,0 +1,70 @@
+[0.073s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.099s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.252s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.260s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.269s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.313s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.474s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.544s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.544s] -- Configured cppcheck include dirs: 
+[0.544s] -- Configured cppcheck exclude dirs and/or files: 
+[0.545s] -- Added test 'lint_cmake' to check CMake code style
+[0.546s] -- Added test 'uncrustify' to check C / C++ code style
+[0.547s] -- Configured uncrustify additional arguments: 
+[0.547s] -- Added test 'xmllint' to check XML markup files
+[0.548s] -- Configuring done
+[0.572s] -- Generating done
+[0.581s] -- Build files have been written to: /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub
+[0.623s] [ 14%] [32mBuilding CXX object CMakeFiles/exo1_publisher.dir/src/exo1_publisher.cpp.o[0m
+[0.624s] [ 14%] [32mBuilding CXX object CMakeFiles/exo3_publisher.dir/src/exo3_publisher.cpp.o[0m
+[0.625s] [ 28%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[0.625s] [ 28%] [32mBuilding CXX object CMakeFiles/exo1_listener.dir/src/exo1_listener.cpp.o[0m
+[0.625s] [ 35%] [32mBuilding CXX object CMakeFiles/exo2_publisher.dir/src/exo2_publisher.cpp.o[0m
+[0.627s] [ 50%] [32mBuilding CXX object CMakeFiles/exo4_listener.dir/src/exo4_listener.cpp.o[0m
+[0.627s] [ 50%] [32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o[0m
+[0.668s] [ 57%] [32m[1mLinking CXX executable exo3_publisher[0m
+[0.669s] [ 64%] [32m[1mLinking CXX executable exo4_publisher[0m
+[0.671s] [ 78%] [32m[1mLinking CXX executable exo5_publisher[0m
+[0.671s] [ 78%] [32m[1mLinking CXX executable exo1_listener[0m
+[0.671s] [ 92%] [32m[1mLinking CXX executable exo2_publisher[0m
+[0.671s] [ 92%] [32m[1mLinking CXX executable exo4_listener[0m
+[0.748s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.748s] (.text+0x1b): undefined reference to `main'
+[0.749s] collect2: error: ld returned 1 exit status
+[0.751s] gmake[2]: *** [CMakeFiles/exo3_publisher.dir/build.make:159: exo3_publisher] Error 1
+[0.751s] gmake[1]: *** [CMakeFiles/Makefile2:227: CMakeFiles/exo3_publisher.dir/all] Error 2
+[0.752s] gmake[1]: *** Waiting for unfinished jobs....
+[0.762s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.763s] (.text+0x1b): undefined reference to `main'
+[0.765s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.765s] (.text+0x1b): undefined reference to `main'
+[0.765s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.765s] (.text+0x1b): undefined reference to `main'
+[0.765s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.765s] (.text+0x1b): undefined reference to `main'
+[0.766s] collect2: error: ld returned 1 exit status
+[0.767s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.767s] (.text+0x1b): undefined reference to `main'
+[0.769s] collect2: error: ld returned 1 exit status
+[0.769s] collect2: error: ld returned 1 exit status
+[0.769s] gmake[2]: *** [CMakeFiles/exo1_listener.dir/build.make:159: exo1_listener] Error 1
+[0.769s] gmake[2]: *** [CMakeFiles/exo4_listener.dir/build.make:159: exo4_listener] Error 1
+[0.770s] collect2: error: ld returned 1 exit status
+[0.770s] collect2: error: ld returned 1 exit status
+[0.770s] gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/exo1_listener.dir/all] Error 2
+[0.770s] gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/exo4_listener.dir/all] Error 2
+[0.770s] gmake[2]: *** [CMakeFiles/exo4_publisher.dir/build.make:159: exo4_publisher] Error 1
+[0.771s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/exo4_publisher.dir/all] Error 2
+[0.772s] gmake[2]: *** [CMakeFiles/exo2_publisher.dir/build.make:159: exo2_publisher] Error 1
+[0.772s] gmake[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/exo2_publisher.dir/all] Error 2
+[0.773s] gmake[2]: *** [CMakeFiles/exo5_publisher.dir/build.make:159: exo5_publisher] Error 1
+[0.773s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/exo5_publisher.dir/all] Error 2
+[4.257s] [100%] [32m[1mLinking CXX executable exo1_publisher[0m
+[4.441s] [100%] Built target exo1_publisher
+[4.442s] gmake: *** [Makefile:146: all] Error 2
+[4.446s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

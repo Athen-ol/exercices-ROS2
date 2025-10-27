@@ -1,0 +1,50 @@
+[ 10%] Built target exo1_publisher
+[ 20%] Built target exo2_publisher
+[ 30%] Built target exo3_publisher
+[ 40%] Built target exo1_listener
+[ 50%] Built target exo5_listener
+[ 60%] Built target exo4_listener
+[ 75%] Built target exo6_publisher
+[ 80%] Built target exo4_publisher
+[35m[1mConsolidate compiler generated dependencies of target exo7_client[0m
+[35m[1mConsolidate compiler generated dependencies of target exo7_server[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:1[m[K:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:[m[K In function ‘[01m[Kvoid check(std::shared_ptr<tutorial_interfaces::srv::CheckParams_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::CheckParams_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:15:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   15 |   [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "sending back response: %s, %s", response->computer_name_correct ? "True" : "False", response->domain_id_correct ? "True" : "False",);
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:1[m[K:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_client.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   40 |     [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Response : %s and %s", result.get()->computer_name_correct ? "Computer name correct" : "Computer name incorrect", result.get()->domain_id_correct ? "Domain id correct" : "Domain id incorrect",);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exo7_server.dir/build.make:76: CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/exo7_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/exo7_client.dir/build.make:76: CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/exo7_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

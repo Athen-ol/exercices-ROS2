@@ -1,0 +1,9 @@
+[ 11%] Built target exo4_listener
+[ 22%] Built target exo2_publisher
+[ 33%] Built target exo1_listener
+[ 44%] Built target exo6_publisher
+[ 66%] Built target exo3_publisher
+[ 66%] Built target exo4_publisher
+[ 77%] Built target exo5_listener
+[ 88%] Built target exo1_publisher
+[ 94%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m

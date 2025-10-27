@@ -1,0 +1,55 @@
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request[01;31m[K>[m[K request,
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+    6 | void add(const [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+      |                [01;31m[K^~~[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+    6 | void [01;31m[Kadd[m[K(const std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+      |      [01;31m[K^~~[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:6:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+    6 | void add([01;31m[Kconst[m[K std::shared_ptr<example_interfaces::srv::AddTwoInts::Request> request,
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:7:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    7 |           std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Response>      response)
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:7:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |           std::shared_ptr<example_interfaces::srv::AddTwoInts::Response[01;31m[K>[m[K      response)
+      |                                                                        [01;31m[K^[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   21 |   rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr service =
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   rclcpp::Service<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr service =
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo7_server.cpp:21:67:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+   21 |   rclcpp::Service<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kservice[m[K =
+      |                                                                   [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exo7_server.dir/build.make:76: CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/exo7_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

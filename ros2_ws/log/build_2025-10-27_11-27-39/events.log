@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000223] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008477] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.045002] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.045936] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1611'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/student-7:@/tmp/.ICE-unix/1464,unix/student-7:/tmp/.ICE-unix/1464'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e86bfce0_5c57_442d_b9b3_748ec38b150c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QC10E3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.275'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_example:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/turtlebot3_ws/build/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/turtlebot3_ws/build/turtlebot3_example:/home/student/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/student/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.099220] (-) TimerEvent: {}
+[0.105394] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.145719] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.165733] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.199336] (-) TimerEvent: {}
+[0.299617] (-) TimerEvent: {}
+[0.399889] (-) TimerEvent: {}
+[0.500158] (-) TimerEvent: {}
+[0.600436] (-) TimerEvent: {}
+[0.700708] (-) TimerEvent: {}
+[0.800949] (-) TimerEvent: {}
+[0.901180] (-) TimerEvent: {}
+[1.001449] (-) TimerEvent: {}
+[1.101722] (-) TimerEvent: {}
+[1.202003] (-) TimerEvent: {}
+[1.302400] (-) TimerEvent: {}
+[1.402679] (-) TimerEvent: {}
+[1.502945] (-) TimerEvent: {}
+[1.603206] (-) TimerEvent: {}
+[1.703478] (-) TimerEvent: {}
+[1.803748] (-) TimerEvent: {}
+[1.904020] (-) TimerEvent: {}
+[2.004311] (-) TimerEvent: {}
+[2.104586] (-) TimerEvent: {}
+[2.204856] (-) TimerEvent: {}
+[2.215049] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.215277] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(const char [2])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.215411] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + \x1b[01;31m\x1b[Kstd::to_string(" ")\x1b[m\x1b[K + std::to_string(count_++);\n'}
+[2.215570] (cpp_pubsub) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.215833] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.215902] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.215987] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.216042] (cpp_pubsub) StderrLine: {'line': b' 6660 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[2.216094] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.216186] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.236247] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.236659] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.236774] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.236848] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.236905] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.236961] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.237015] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.237085] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.237200] (cpp_pubsub) StderrLine: {'line': b' 6671 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[2.237300] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.237374] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.237431] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.237500] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.237556] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.237610] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.237665] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.237720] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.237780] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.237835] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.237891] (cpp_pubsub) StderrLine: {'line': b' 6679 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[2.237945] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.237999] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.238053] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.238127] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.238186] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.238240] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.238295] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.238348] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.238402] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.238455] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.238510] (cpp_pubsub) StderrLine: {'line': b' 6690 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[2.238564] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.238619] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.238673] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.238736] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.238791] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.238845] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.238900] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.238954] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.239008] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.239063] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.239123] (cpp_pubsub) StderrLine: {'line': b' 6698 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[2.239183] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.239237] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.239291] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.239348] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.239402] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.239456] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.239510] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.239572] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.239626] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[2.239680] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[2.239735] (cpp_pubsub) StderrLine: {'line': b' 6710 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[2.239791] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.239844] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[2.239898] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.239963] (cpp_pubsub) StderrLine: {'line': b'   47 |     message.data = infoBuf + std::to_string(\x1b[01;31m\x1b[K" "\x1b[m\x1b[K) + std::to_string(count_++);\n'}
+[2.240022] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.240076] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[2.240148] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[2.304978] (-) TimerEvent: {}
+[2.405277] (-) TimerEvent: {}
+[2.505607] (-) TimerEvent: {}
+[2.605908] (-) TimerEvent: {}
+[2.706210] (-) TimerEvent: {}
+[2.806521] (-) TimerEvent: {}
+[2.906806] (-) TimerEvent: {}
+[2.948037] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.948455] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.948722] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.951032] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[2.961334] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[2.962535] (-) EventReactorShutdown: {}

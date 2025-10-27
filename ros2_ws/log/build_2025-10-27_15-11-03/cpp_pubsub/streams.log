@@ -1,0 +1,145 @@
+[0.025s] Invoking command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[0.109s] [ 14%] Built target exo1_listener
+[0.110s] [ 28%] Built target exo1_publisher
+[0.112s] [ 42%] Built target exo2_publisher
+[0.113s] [ 57%] Built target exo3_publisher
+[0.113s] [ 64%] [32mBuilding CXX object CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o[0m
+[0.114s] [ 78%] Built target exo4_listener
+[0.118s] [ 85%] [32mBuilding CXX object CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o[0m
+[2.473s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:56:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[2.473s]    56 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[2.473s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.473s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:56:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.473s]    56 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[2.474s]       |                                          [01;31m[K^[m[K
+[2.492s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:56:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.492s]    56 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[2.492s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[2.492s]       |                                                      [32m[K;[m[K
+[2.494s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:56:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.494s]    56 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.494s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[2.494s]       |                                                       [32m[Krmw_publisher_t[m[K
+[2.500s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.500s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.500s]    35 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10);
+[2.500s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.501s]       |     [32m[Krmw_publisher_t[m[K
+[2.501s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:35:67:[m[K [01;31m[Kerror: [m[K‘[01m[KMsg[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’
+[2.501s]    35 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::[01;31m[KMsg[m[K>("topic", 10);
+[2.501s]       |                                                                   [01;31m[K^~~[m[K
+[2.501s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:35:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[2.501s]    35 |     publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10)[m[K;
+[2.501s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.501s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.502s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:20[m[K:
+[2.502s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.502s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.502s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.502s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.502s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:35:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.502s]    35 |     publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10)[m[K;
+[2.502s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.512s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.513s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:20[m[K:
+[2.513s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.513s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:52:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::ComputerInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[2.513s]    52 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+[2.513s]       |                                                                 [01;31m[K^~~~[m[K
+[2.520s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.520s]    53 |     [01;31m[Kpublisher_[m[K->publish(ComputerInfo);
+[2.520s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.520s]       |     [32m[Krmw_publisher_t[m[K
+[2.521s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:53:25:[m[K [01;31m[Kerror: [m[K‘[01m[KComputerInfo[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces::msg::ComputerInfo[m[K’?
+[2.521s]    53 |     publisher_->publish([01;31m[KComputerInfo[m[K);
+[2.521s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.521s]       |                         [32m[Ktutorial_interfaces::msg::ComputerInfo[m[K
+[2.521s] In file included from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/computer_info.hpp:7[m[K,
+[2.521s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo5_publisher.cpp:22[m[K:
+[2.521s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/computer_info__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktutorial_interfaces::msg::ComputerInfo[m[K’ declared here
+[2.521s]   150 | using [01;36m[KComputerInfo[m[K =
+[2.521s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[2.532s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:56:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[2.532s]    56 |   rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[2.532s]       |                     [01;31m[K^~~~~~~~[m[K
+[2.532s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:56:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.532s]    56 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[2.532s]       |                                          [01;31m[K^[m[K
+[2.532s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:56:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.532s]    56 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[2.532s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[2.532s]       |                                                      [32m[K;[m[K
+[2.533s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:56:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.533s]    56 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[2.533s]       |                                                       [01;31m[K^~~~~~~~~~[m[K
+[2.533s]       |                                                       [32m[Krmw_publisher_t[m[K
+[2.542s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.543s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.543s]    35 |     [01;31m[Kpublisher_[m[K = this->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10);
+[2.543s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.543s]       |     [32m[Krmw_publisher_t[m[K
+[2.544s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:35:67:[m[K [01;31m[Kerror: [m[K‘[01m[KMsg[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’
+[2.544s]    35 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::[01;31m[KMsg[m[K>("topic", 10);
+[2.544s]       |                                                                   [01;31m[K^~~[m[K
+[2.544s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:35:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[2.544s]    35 |     publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10)[m[K;
+[2.544s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.544s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.544s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.544s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.545s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:20[m[K:
+[2.545s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[2.545s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[2.545s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.545s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.545s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:35:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.545s]    35 |     publisher_ = [01;31m[Kthis->create_publisher<tutorial_interfaces::msg::Msg>("topic", 10)[m[K;
+[2.545s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.555s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.556s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:20[m[K:
+[2.556s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.556s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:52:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct tutorial_interfaces::msg::ComputerInfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[2.556s]    52 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.[01;31m[Kdata[m[K.c_str());
+[2.556s]       |                                                                 [01;31m[K^~~~[m[K
+[2.561s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.561s]    53 |     [01;31m[Kpublisher_[m[K->publish(ComputerInfo);
+[2.561s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.561s]       |     [32m[Krmw_publisher_t[m[K
+[2.561s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:53:25:[m[K [01;31m[Kerror: [m[K‘[01m[KComputerInfo[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces::msg::ComputerInfo[m[K’?
+[2.561s]    53 |     publisher_->publish([01;31m[KComputerInfo[m[K);
+[2.561s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.561s]       |                         [32m[Ktutorial_interfaces::msg::ComputerInfo[m[K
+[2.562s] In file included from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/computer_info.hpp:7[m[K,
+[2.562s]                  from [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/src/cpp_pubsub/src/exo4_publisher.cpp:22[m[K:
+[2.562s] [01m[K/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/computer_info__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktutorial_interfaces::msg::ComputerInfo[m[K’ declared here
+[2.562s]   150 | using [01;36m[KComputerInfo[m[K =
+[2.562s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.004s] gmake[2]: *** [CMakeFiles/exo5_publisher.dir/build.make:76: CMakeFiles/exo5_publisher.dir/src/exo5_publisher.cpp.o] Error 1
+[3.005s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/exo5_publisher.dir/all] Error 2
+[3.005s] gmake[1]: *** Waiting for unfinished jobs....
+[3.011s] gmake[2]: *** [CMakeFiles/exo4_publisher.dir/build.make:76: CMakeFiles/exo4_publisher.dir/src/exo4_publisher.cpp.o] Error 1
+[3.011s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/exo4_publisher.dir/all] Error 2
+[3.011s] gmake: *** [Makefile:146: all] Error 2
+[3.014s] Invoked command in '/home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub' returned '2': AMENT_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces:/home/student/turtlebot3_ws/install/turtlebot3:/home/student/turtlebot3_ws/install/turtlebot3_bringup:/home/student/turtlebot3_ws/install/turtlebot3_node:/home/student/turtlebot3_ws/install/turtlebot3_navigation2:/home/student/turtlebot3_ws/install/turtlebot3_msgs:/home/student/turtlebot3_ws/install/turtlebot3_description:/home/student/turtlebot3_ws/install/turtlebot3_cartographer:/home/student/turtlebot3_ws/install/dynamixel_sdk_examples:/home/student/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/student/turtlebot3_ws/install/dynamixel_sdk:/home/student/turtlebot3_ws/install/turtlebot3_teleop:/home/student/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student/Documents/formation_ros2/Introduction/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/Documents/formation_ros2/Introduction/ros2_ws/build/cpp_pubsub -- -j8 -l8

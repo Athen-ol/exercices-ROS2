@@ -1,0 +1,12 @@
+[ 10%] Built target exo1_publisher
+[ 20%] Built target exo2_publisher
+[ 30%] Built target exo3_publisher
+[ 40%] Built target exo1_listener
+[ 50%] Built target exo5_listener
+[ 60%] Built target exo4_listener
+[ 75%] Built target exo6_publisher
+[ 80%] Built target exo4_publisher
+[35m[1mConsolidate compiler generated dependencies of target exo7_client[0m
+[35m[1mConsolidate compiler generated dependencies of target exo7_server[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/exo7_client.dir/src/exo7_client.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/exo7_server.dir/src/exo7_server.cpp.o[0m
